@@ -42,6 +42,8 @@
     ".config/helix/themes/seashells.toml".source = ./dotfiles/helix/themes/seashells.toml;
     ".config/fish/config.fish".source = ./dotfiles/fish/config.fish;
     ".config/ghostty/config".source = ./dotfiles/ghostty/config;
+    ".config/yazi/yazi.toml".source = ./dotfiles/yazi/yazi.toml;
+    ".config/yazi/keymap.toml".source = ./dotfiles/yazi/keymap.toml;
   };
 
   home.sessionVariables = {
