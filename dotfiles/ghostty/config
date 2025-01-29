@@ -1,0 +1,5 @@
+theme = "SeaShells"
+macos-option-as-alt = true
+font-family = "Geist Mono"
+background-opacity = 0.9
+background-blur-radius = 64

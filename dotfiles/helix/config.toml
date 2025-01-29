@@ -1,0 +1,36 @@
+theme = "seashells"
+
+[editor]
+mouse = false
+line-number = "relative"
+bufferline = "multiple"
+
+[editor.whitespace.render]
+space = "all"
+tab = "all"
+nbsp = "none"
+nnbsp = "none"
+newline = "none"
+
+[keys.insert]
+"A-j" = "move_char_left"
+"A-l" = "move_char_right"
+"C-m" = "normal_mode"
+
+[keys.normal]
+j = "move_char_left"
+i = "move_visual_line_up"
+k = "move_visual_line_down"
+l = "move_char_right"
+"C-m" = "insert_mode"
+"C-i" = "page_cursor_half_up"
+"C-k" = "page_cursor_half_down"
+"C-j" = "move_prev_word_start"
+"C-l" = "move_next_word_start"
+"A-k" = [ "extend_to_line_bounds", "delete_selection", "paste_after" ]
+"A-i" = [ "extend_to_line_bounds", "delete_selection", "move_line_up", "paste_before" ]
+"S-[" = "goto_prev_paragraph"
+"S-]" = "goto_next_paragraph"
+
+[keys.normal.space]
+x = ":buffer-close"

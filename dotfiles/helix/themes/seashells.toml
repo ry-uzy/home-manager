@@ -1,0 +1,104 @@
+"ui.background" = {}
+"ui.background.separator" = { bg = "base" }
+
+"ui.cursor" = { fg = "text", bg = "highlight_high" }
+"ui.cursor.match" = { fg = "text", bg = "highlight_med" }
+"ui.cursor.primary" = { fg = "text", bg = "muted" }
+
+"ui.linenr" = { fg = "muted" }
+"ui.linenr.selected" = { fg = "text" }
+
+"ui.bufferline" = { fg = "muted", bg = "base" }
+"ui.bufferline.active" = { fg = "text", bg = "overlay" }
+"ui.statusline" = { fg = "subtle", bg = "surface" }
+"ui.statusline.inactive" = { fg = "muted", bg = "surface" }
+"ui.statusline.normal" = { fg = "foam", bg = "foam_10" }
+"ui.statusline.insert" = { fg = "gold", bg = "gold_10" }
+"ui.statusline.select" = { fg = "love", bg = "love_10" }
+
+"ui.popup" = { bg = "surface" }
+"ui.popup.info" = { bg = "surface" }
+
+"ui.window" = { fg = "overlay", bg = "base" }
+"ui.help" = { fg = "subtle", bg = "overlay" }
+
+"ui.text" = { fg = "text" }
+"ui.text.focus" = { bg = "overlay" }
+"ui.text.info" = { fg = "subtle" }
+"ui.text.directory" = { fg = "foam" }
+
+"ui.virtual.whitespace" = { fg = "highlight_high" }
+"ui.virtual.indent-guide" = { fg = "muted" }
+"ui.virtual.inlay-hint" = { fg = "subtle" }
+
+"ui.menu" = { fg = "subtle", bg = "surface" }
+"ui.menu.selected" = { fg = "text" }
+"ui.menu.scroll" = { fg = "muted", bg = "highlight_med" }
+
+"ui.selection" = { bg = "overlay" }
+"ui.selection.primary" = { bg = "highlight_med" }
+
+"ui.cursorline.primary" = { bg = "highlight_low" }
+"ui.cursorline.secondary" = { bg = "surface" }
+
+"warning" = "gold"
+"error" = "love"
+"info" = "foam"
+"hint" = "iris"
+"debug" = "foam"
+
+"diagnostic" = { underline = { color = "subtle", style = "curl" } }
+"diagnostic.hint" = { underline = { color = "foam", style = "curl" } }
+"diagnostic.info" = { underline = { color = "foam", style = "curl" } }
+"diagnostic.warning" = { underline = { color = "gold", style = "curl" } }
+"diagnostic.error" = { underline = { color = "love", style = "curl" } }
+
+"special" = "foam"
+"attribute" = "pine"
+"type" = "foam"
+"constructor" = "foam"
+"constant" = "foam"
+"constant.builtin" = "gold"
+"constant.character" = "text"
+"constant.numeric" = "cyan"
+
+"string" = "text"
+"comment" = { fg = "muted", modifiers = ["italic"] }
+"variable" = "text"
+"variable.builtin" = "love"
+"variable.parameter" = { fg = "text", modifiers = ["italic"] }
+"variable.other.member" = "pine"
+
+"label" = "foam"
+"punctuation" = "subtle"
+"keyword" = "gold"
+"keyword.operator" = "subtle"
+"operator" = "subtle"
+"function" = "cyan"
+"function.builtin" = "love"
+"tag" = "foam"
+"namespace" = "text"
+
+[palette]
+base = "#0B141A"
+surface = "#0f212d"
+overlay = "#1e4962"
+muted = "#17384c"
+subtle = "#50a3b5"
+text = "#deb88d"
+love = "#d15123"
+love_10 = "#d151234d"
+gold = "#fca02f"
+gold_10 = "#fca02f4d"
+rose = "#fee4ce"
+rose_10 = "#fee4ce4d"
+pine = "#027c9b"
+pine_10 = "#027c9b4d"
+foam = "#50a3b5"
+foam_10 = "#50a3b54d"
+iris = "#68d4f1"
+iris_10 = "#68d4f14d"
+highlight_low = "#0f212d"
+highlight_med = "#1e4962"
+highlight_high = "#074b5f"
+cyan = "#50a3b5"
