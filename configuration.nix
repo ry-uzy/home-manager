@@ -108,6 +108,17 @@
     shell = pkgs.fish;
   };
 
+  environment.gnome.excludePackages = with pkgs; [
+    baobab
+    cheese
+    epiphany
+    gedit
+    simple-scan
+    totem
+    geary
+    seahorse
+  ];
+
   # Allow unfree packages
   nixpkgs.config.allowUnfree = true;
 

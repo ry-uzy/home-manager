@@ -34,3 +34,9 @@ l = "move_char_right"
 
 [keys.normal.space]
 x = ":buffer-close"
+
+[keys.select]
+j = "extend_char_left"
+i = "extend_visual_line_up"
+k = "extend_visual_line_down"
+l = "extend_char_right"

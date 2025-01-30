@@ -1,5 +1,5 @@
 [manager]
-keymap = [
+prepend_keymap = [
   { on = "j", run = "leave", desc = "Go back to the parent directory" },
   { on = "l", run = "enter", desc = "Enter the child directory" },
   { on = "i", run = "arrow -1", desc = "Move cursor up" },
